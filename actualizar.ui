@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UpdateWindow</class>
+ <widget class="QWidget" name="UpdateWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Actualizar Usuario</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+      QWidget {
+		
+	background-color: rgb(4, 97, 131);
+      }
+      QLineEdit {
+          border: 2px solid #5dade2;
+          border-radius: 10px;
+          padding: 8px;
+          font-size: 14px;
+          background-color: white;
+      }
+      QPushButton {
+          background-color: #5dade2;
+          color: white;
+          font-size: 14px;
+          font-weight: bold;
+          padding: 10px 20px;
+          border-radius: 10px;
+      }
+      QPushButton:hover {
+          background-color: #3498db;
+      }
+   </string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLineEdit" name="input_id">
+     <property name="placeholderText">
+      <string>ID del Usuario</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="input_nombre">
+     <property name="placeholderText">
+      <string>Nuevo Nombre</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="input_contraseña">
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="placeholderText">
+      <string>Nueva Contraseña</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btn_actualizar">
+     <property name="text">
+      <string>Actualizar</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MenuWindow</class>
+ <widget class="QMainWindow" name="MenuWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>522</width>
+    <height>348</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="renta">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>90</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+      QPushButton {
+	background-color: rgb(89, 127, 184);
+	color: rgb(255, 95, 90);
+        color: black;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+      }
+      QPushButton:hover {
+      	background-color: rgb(89, 127, 184);
+      }
+     
+     </string>
+    </property>
+    <property name="text">
+     <string>Autos a rentar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="usuarios">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>30</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+      QPushButton {
+	background-color: rgb(89, 127, 184);
+	color: rgb(255, 95, 90);
+        color: black;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+      }
+      QPushButton:hover {
+      	background-color: rgb(89, 127, 184);
+      }
+     </string>
+    </property>
+    <property name="text">
+     <string>Usuarios</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clientes">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>220</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+      QPushButton {
+	background-color: rgb(89, 127, 184);
+	color: rgb(255, 95, 90);
+        color: black;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+      }
+      QPushButton:hover {
+      	background-color: rgb(89, 127, 184);
+      }
+     
+     </string>
+    </property>
+    <property name="text">
+     <string>Clientes</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="aseguradora">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>160</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+      QPushButton {
+	background-color: rgb(89, 127, 184);
+	color: rgb(255, 95, 90);
+        color: black;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+      }
+      QPushButton:hover {
+      	background-color: rgb(89, 127, 184);
+      }
+     </string>
+    </property>
+    <property name="text">
+     <string>Compañias Aseguradoras</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>522</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

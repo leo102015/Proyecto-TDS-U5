@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InsertWindow</class>
+ <widget class="QWidget" name="InsertWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>764</width>
+    <height>589</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Insertar Cliente</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 127);
+
+</string>
+  </property>
+  <widget class="QLineEdit" name="input_nombre">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>121</y>
+     <width>200</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+          border: 2px solid #ffffff;
+          border-radius: 10px;
+          padding: 8px;
+          font-size: 14px;
+          background-color: rgb(255, 249, 213);
+      }</string>
+   </property>
+   <property name="placeholderText">
+    <string>Nombre de Cliente</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_insertar">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>461</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+        background-color: #FFC107;
+        color: black;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+      }</string>
+   </property>
+   <property name="text">
+    <string>Insertar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>61</y>
+     <width>661</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>fondo.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>81</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(225, 255, 235);</string>
+   </property>
+   <property name="text">
+    <string>Nombre:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>81</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(222, 255, 206);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:normal;&quot;&gt;Apellidos: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input_fecha">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>201</y>
+     <width>200</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+          border: 2px solid #ffffff;
+          border-radius: 10px;
+          padding: 8px;
+          font-size: 14px;
+          background-color: rgb(255, 249, 213);
+      }</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Fecha nacimiento</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>181</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(225, 255, 235);</string>
+   </property>
+   <property name="text">
+    <string>Fecha de nacimiento:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>181</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(225, 255, 235);</string>
+   </property>
+   <property name="text">
+    <string>Dirección</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input_direccion">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>201</y>
+     <width>200</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+          border: 2px solid #ffffff;
+          border-radius: 10px;
+          padding: 8px;
+          font-size: 14px;
+          background-color: rgb(255, 249, 213);
+      }</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Dirección Cliente</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>281</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(225, 255, 235);</string>
+   </property>
+   <property name="text">
+    <string>Teléfono</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>281</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(225, 255, 235);</string>
+   </property>
+   <property name="text">
+    <string>INE</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input_telefono">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>301</y>
+     <width>200</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+          border: 2px solid #ffffff;
+          border-radius: 10px;
+          padding: 8px;
+          font-size: 14px;
+          background-color: rgb(255, 249, 213);
+      }</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Teléfono cliente</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input_ine">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>301</y>
+     <width>200</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+          border: 2px solid #ffffff;
+          border-radius: 10px;
+          padding: 8px;
+          font-size: 14px;
+          background-color: rgb(255, 249, 213);
+      }</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>INE cliente</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>371</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(225, 255, 235);</string>
+   </property>
+   <property name="text">
+    <string>Licencia</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>371</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(225, 255, 235);</string>
+   </property>
+   <property name="text">
+    <string>Tarjeta de credito</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input_licencia">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>391</y>
+     <width>200</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+          border: 2px solid #ffffff;
+          border-radius: 10px;
+          padding: 8px;
+          font-size: 14px;
+          background-color: rgb(255, 249, 213);
+      }</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Licencia cliente</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input_tarjeta">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>401</y>
+     <width>200</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+          border: 2px solid #ffffff;
+          border-radius: 10px;
+          padding: 8px;
+          font-size: 14px;
+          background-color: rgb(255, 249, 213);
+      }</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Tarjeta de crédito</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input_apellidos">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>120</y>
+     <width>200</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+          border: 2px solid #ffffff;
+          border-radius: 10px;
+          padding: 8px;
+          font-size: 14px;
+          background-color: rgb(255, 249, 213);
+      }</string>
+   </property>
+   <property name="placeholderText">
+    <string>Apellido cliente</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>0</y>
+     <width>331</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+font: 75 22pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Ingresa nuevo Cliente</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>input_nombre</zorder>
+  <zorder>btn_insertar</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>input_fecha</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>input_direccion</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>input_telefono</zorder>
+  <zorder>input_ine</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_9</zorder>
+  <zorder>input_licencia</zorder>
+  <zorder>input_tarjeta</zorder>
+  <zorder>input_apellidos</zorder>
+  <zorder>label_10</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

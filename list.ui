@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ListWindow</class>
+ <widget class="QWidget" name="ListWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Listar Usuarios</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+      QWidget {
+          
+	background-color: rgb(170, 255, 170);
+      }
+      QTextEdit {
+          border: 2px solid #5dade2;
+          border-radius: 10px;
+          padding: 8px;
+          font-size: 14px;
+          background-color: white;
+      }
+      QPushButton {
+          background-color: #5dade2;
+          color: white;
+          font-size: 14px;
+          font-weight: bold;
+          padding: 10px 20px;
+          border-radius: 10px;
+      }
+      QPushButton:hover {
+          background-color: #3498db;
+      }
+   </string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTextEdit" name="text_area">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(217, 255, 222);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btn_listar">
+     <property name="styleSheet">
+      <string notr="true">      QPushButton {
+          background-color: rgb(85, 255, 127);
+          color: black;
+          font-size: 14px;
+          font-weight: bold;
+          padding: 10px 20px;
+          border-radius: 10px;
+      }
+      QPushButton:hover {
+          
+	background-color: rgb(31, 255, 28);
+      }</string>
+     </property>
+     <property name="text">
+      <string>Listar Usuarios</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

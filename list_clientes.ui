@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ListWindow</class>
+ <widget class="QWidget" name="ListWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>730</width>
+    <height>496</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Consultar clientes</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+      QWidget {
+          
+	background-color: rgb(170, 255, 170);
+      }
+      QTextEdit {
+          border: 2px solid #5dade2;
+          border-radius: 10px;
+          padding: 8px;
+          font-size: 14px;
+          background-color: white;
+      }
+      QPushButton {
+          background-color: #5dade2;
+          color: white;
+          font-size: 14px;
+          font-weight: bold;
+          padding: 10px 20px;
+          border-radius: 10px;
+      }
+      QPushButton:hover {
+          background-color: #3498db;
+      }
+   </string>
+  </property>
+  <widget class="QPushButton" name="btn_listar">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>80</y>
+     <width>141</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">      QPushButton {
+          background-color: rgb(85, 255, 127);
+          color: black;
+          font-size: 14px;
+          font-weight: bold;
+          padding: 10px 20px;
+          border-radius: 10px;
+      }
+      QPushButton:hover {
+          
+	background-color: rgb(31, 255, 28);
+      }</string>
+   </property>
+   <property name="text">
+    <string>Ver Clientes</string>
+   </property>
+  </widget>
+  <widget class="QTreeWidget" name="treeView">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>140</y>
+     <width>721</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>ID Cliente</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Nombre</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Apellido</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Fecha de Nacimiento</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Dirección</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Teléfono</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>INE</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Licencia</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Tarjeta de Crédito</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>30</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 22pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Consultar Clientes</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>141</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>eliminar_foto.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>410</y>
+     <width>151</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>consul.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

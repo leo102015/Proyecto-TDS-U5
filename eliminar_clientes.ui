@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DeleteWindow</class>
+ <widget class="QWidget" name="DeleteWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>537</width>
+    <height>287</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Eliminar Cliente</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(170, 255, 255);
+      QWidget {
+		
+	background-color: rgb(202, 183, 40);
+      }
+      QLineEdit {
+          border: 2px solid #5dade2;
+          border-radius: 10px;
+          padding: 8px;
+          font-size: 14px;
+          background-color: white;
+      }
+      QPushButton {
+          background-color: #5dade2;
+          color: white;
+          font-size: 14px;
+          font-weight: bold;
+          padding: 10px 20px;
+          border-radius: 10px;
+      }
+      QPushButton:hover {
+          background-color: #3498db;
+      }
+   </string>
+  </property>
+  <widget class="QLineEdit" name="input_nombre">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>140</y>
+     <width>160</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+          border: 2px solid #5dade2;
+          border-radius: 10px;
+          padding: 8px;
+          font-size: 14px;
+          background-color: white;
+      }
+      QPushButton {
+          
+	background-color: rgb(170, 0, 0);
+          color: white;
+          font-size: 14px;
+          font-weight: bold;
+          padding: 10px 20px;
+          border-radius: 10px;
+      }
+      QPushButton:hover {
+          
+	background-color: rgb(227, 28, 10);
+      }</string>
+   </property>
+   <property name="placeholderText">
+    <string>Nombre Cliente</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_eliminar">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>220</y>
+     <width>94</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+          border: 2px solid #5dade2;
+          border-radius: 10px;
+          padding: 8px;
+          font-size: 14px;
+          background-color: white;
+      }
+      QPushButton {
+          
+	background-color: rgb(170, 0, 0);
+          color: white;
+          font-size: 14px;
+          font-weight: bold;
+          padding: 10px 20px;
+          border-radius: 10px;
+      }
+      QPushButton:hover {
+          
+	background-color: rgb(227, 28, 10);
+      }</string>
+   </property>
+   <property name="text">
+    <string>Eliminar</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="combo_cliente">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>40</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input_apellido">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>140</y>
+     <width>160</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+          border: 2px solid #5dade2;
+          border-radius: 10px;
+          padding: 8px;
+          font-size: 14px;
+          background-color: white;
+      }
+      QPushButton {
+          
+	background-color: rgb(170, 0, 0);
+          color: white;
+          font-size: 14px;
+          font-weight: bold;
+          padding: 10px 20px;
+          border-radius: 10px;
+      }
+      QPushButton:hover {
+          
+	background-color: rgb(227, 28, 10);
+      }</string>
+   </property>
+   <property name="placeholderText">
+    <string>Apellido Cliente</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Buscar Cliente: </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>20</y>
+     <width>141</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>eliminar_foto.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
