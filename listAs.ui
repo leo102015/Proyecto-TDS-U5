@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ListASWindow</class>
+ <widget class="QMainWindow" name="ListASWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>620</width>
+    <height>527</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Listar Aseguradora</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_listar">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>395</y>
+      <width>482</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">      QPushButton {
+          background-color: rgb(85, 255, 127);
+          color: black;
+          font-size: 14px;
+          font-weight: bold;
+          padding: 10px 20px;
+          border-radius: 10px;
+      }
+      QPushButton:hover {
+          
+	background-color: rgb(31, 255, 28);
+      }</string>
+    </property>
+    <property name="text">
+     <string>Listar Compañia Aseguradora</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_area">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>50</y>
+      <width>482</width>
+      <height>339</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(217, 255, 222);</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>620</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

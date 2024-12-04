@@ -116,6 +116,7 @@ class MenuWindow(QMainWindow):
         self.usuarios.clicked.connect(self.open_main_window) #Referencia proyecto Paco
         self.renta.clicked.connect(self.open_rentas) #Referencia proyecto Paco
         self.clientes.clicked.connect(self.open_clientes)
+        self.aseguradora.clicked.connect(self.open_aseguradoras)
 
     def open_main_window(self):
         subprocess.run(['python', 'usuario.py']) 
@@ -126,10 +127,8 @@ class MenuWindow(QMainWindow):
     def open_rentas(self):
         subprocess.run(['python', 'autos.py'])    
 
-
-        
-
-
+    def open_aseguradoras(self):
+        subprocess.run(['python', 'compaseguradoras.py'])    
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

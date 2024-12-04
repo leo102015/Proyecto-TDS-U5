@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UpdateASWindow</class>
+ <widget class="QMainWindow" name="UpdateASWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>453</width>
+    <height>479</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Actualizar Aseguradora</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="input_nombre">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>137</y>
+      <width>382</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Nuevo Nombre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_actualizar">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>340</y>
+      <width>382</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Actualizar</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="input_telefono">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>204</y>
+      <width>382</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Nuevo Telefono</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="input_id">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>70</y>
+      <width>382</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>ID del Usuario</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="input_direccion">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>270</y>
+      <width>382</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Nueva direccion</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>453</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
