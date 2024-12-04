@@ -153,12 +153,14 @@ class DeleteAsWindow(QMainWindow):
             return
 
         try:
-            con = mysql.connector.connect(host="localhost", user="root", password="Previus22", database="TDS_db")
-            query = "DELETE FROM companiasaseguradoras WHERE id = %s"
-            cursor = con.cursor()
-            cursor.execute(query, (id_compania))
-            con.commit()
-            con.close()
+            with mysql.connector.connect(
+                host="localhost", user="root", password="Previus22", database="TDS_db"
+            ) as con:
+                query = "DELETE FROM companiasaseguradoras WHERE id_compania = %s"
+                cursor = con.cursor()
+                cursor.execute(query, (id_compania,))  # Paréntesis extra para crear una tupla
+                con.commit()
+
             QMessageBox.information(self, "Éxito", "Usuario eliminado exitosamente.")
         except mysql.connector.Error as e:
             QMessageBox.critical(self, "Error", f"Error al eliminar usuario: {e}")
